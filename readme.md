@@ -9,22 +9,22 @@ Originally a simple PHP website for beginners, Luxora has been enhanced with mod
 ### 🎨 Design & UX
 - **Premium Navy Blue & Gold Theme** - Elegant color scheme with luxury feel
 - **Dark/Light Mode** - Toggle between dark navy and light cream themes with persistent user preference
-- **Responsive Design** - Fully responsive for desktop, tablet, and mobile devices
+Contributions are welcome! Feel free to:
+- Report bugs
+- Suggest improvements
+- Submit pull requests
+- Share your enhancements
 - **Modern Typography** - Beautiful Playfair Display serif headers and Lato sans-serif body text
 - **Font Awesome Icons** - Professional icons throughout the interface
 
 ### 🌟 Core Features
-- **Navigation with Icons** - Home, About Us, Products, Contact with icon indicators
-- **Breadcrumb Navigation** - User-friendly breadcrumb trail (Home › Page)
-- **Back to Top Button** - Floating button appears when scrolling down
 - **Featured Sections** - Highlighted content boxes on key pages
 - **Benefit Cards Grid** - Showcase key features with icons and hover animations
 - **Social Media Integration** - Footer links to Facebook, Twitter, LinkedIn, Instagram
+Built with modern PHP best practices and professional web design standards. Originally created as an educational project for PHP beginners, evolved into a showcase of professional web development.
 
-### 📞 Contact Page
-- **Multiple Contact Options:**
-  - Email: support@luxora.com, sales@luxora.com
-  - Phone: +1-800-LUXORA-1
+
+**Made with ❤️ by Subhajyoti Maity**
   - WhatsApp: +1 (800) 589-9671
 - **Professional Contact Form** - Name, Email, Subject, Message fields
 - **Styled Form Elements** - Beautiful form with validation support
@@ -67,26 +67,19 @@ Edit `includes/config.php` to customize:
 - Content path
 - Pretty URLs (requires Apache)
 
-```php
-'name' => 'Luxora',
-'pretty_uri' => false,  // Set to true for /page URLs
-'nav_menu' => [
-    '' => 'Home',
+This project was created and maintained by Subhajyoti Maity. Contributions are not currently open.
     'about-us' => 'About Us',
     'products' => 'Products',
     'contact' => 'Contact',
 ],
-```
-
-## Project Structure
 
 ```
 luxora/
-├── index.php                 # Entry point
-├── readme.md                # Documentation
-├── includes/
-│   ├── config.php          # Configuration settings
-│   └── functions.php       # Helper functions
+Built with modern PHP best practices and professional web design standards. Originally created as an educational project for PHP beginners, evolved into a showcase of professional web development.
+
+---
+
+**Made with ❤️ by Subhajyoti Maity**
 ├── content/
 │   ├── home.phtml         # Home page content
 │   ├── about-us.phtml     # About page content
