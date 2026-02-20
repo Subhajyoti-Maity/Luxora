@@ -1,4 +1,4 @@
-# Luxora - Premium PHP Website
+# luxora - Premium PHP Website
 
 Welcome to **Luxora**, a modern, elegantly designed premium website built with PHP. This project combines clean, minimal PHP code with a sophisticated user interface featuring luxury branding, dark/light mode support, and professional features.
 
@@ -9,11 +9,6 @@ Originally a simple PHP website for beginners, Luxora has been enhanced with mod
 ### 🎨 Design & UX
 - **Premium Navy Blue & Gold Theme** - Elegant color scheme with luxury feel
 - **Dark/Light Mode** - Toggle between dark navy and light cream themes with persistent user preference
-Contributions are welcome! Feel free to:
-- Report bugs
-- Suggest improvements
-- Submit pull requests
-- Share your enhancements
 - **Modern Typography** - Beautiful Playfair Display serif headers and Lato sans-serif body text
 - **Font Awesome Icons** - Professional icons throughout the interface
 
@@ -21,13 +16,10 @@ Contributions are welcome! Feel free to:
 - **Featured Sections** - Highlighted content boxes on key pages
 - **Benefit Cards Grid** - Showcase key features with icons and hover animations
 - **Social Media Integration** - Footer links to Facebook, Twitter, LinkedIn, Instagram
-Built with modern PHP best practices and professional web design standards. Originally created as an educational project for PHP beginners, evolved into a showcase of professional web development.
-
-
-**Made with ❤️ by Subhajyoti Maity**
-  - WhatsApp: +1 (800) 589-9671
 - **Professional Contact Form** - Name, Email, Subject, Message fields
 - **Styled Form Elements** - Beautiful form with validation support
+
+Built with modern PHP best practices and professional web design standards. Originally created as an educational project for PHP beginners, evolved into a showcase of professional web development.
 
 ### 📱 Pages Included
 - **Home** - Welcome page with Luxora brand information, vision, mission, and key benefits
@@ -37,6 +29,9 @@ Built with modern PHP best practices and professional web design standards. Orig
 
 ## Installation & Setup
 
+**GitHub Repository:**
+https://github.com/Subhajyoti-Maity/Luxora.git
+
 ### Prerequisites
 - PHP 7.0 or higher
 - Web server (Apache, Nginx, or PHP built-in server)
@@ -45,19 +40,21 @@ Built with modern PHP best practices and professional web design standards. Orig
 
 1. **Clone or download the project:**
    ```bash
-   git clone https://github.com/yourusername/luxora.git
+   git clone https://github.com/Subhajyoti-Maity/Luxora.git
    cd luxora
    ```
 
 2. **Run the development server:**
    ```bash
-   php -S localhost:8000
+   php -S localhost:8000 -t .
+   # Standard way: ensures the current directory is used as the document root, so index.php and all assets are served correctly
    # Run this command from the project root (where index.php is located)
    ```
 
 3. **Open in browser:**
    Navigate to `http://localhost:8000`
 
+luxora/
 ### Configuration
 
 Edit `includes/config.php` to customize:
@@ -67,29 +64,47 @@ Edit `includes/config.php` to customize:
 - Content path
 - Pretty URLs (requires Apache)
 
-This project was created and maintained by Subhajyoti Maity. Contributions are not currently open.
-    'about-us' => 'About Us',
-    'products' => 'Products',
-    'contact' => 'Contact',
-],
+## Project Structure
 
 ```
 luxora/
-Built with modern PHP best practices and professional web design standards. Originally created as an educational project for PHP beginners, evolved into a showcase of professional web development.
-
----
-
-**Made with ❤️ by Subhajyoti Maity**
+├── index.php                # Main entry point
+├── readme.md                # Project documentation
 ├── content/
-│   ├── home.phtml         # Home page content
-│   ├── about-us.phtml     # About page content
-│   ├── products.phtml     # Products page content
-│   ├── contact.phtml      # Contact page content
-│   └── 404.phtml          # 404 error page
+│   ├── 404.phtml            # 404 error page
+│   ├── about-us.phtml       # About page content
+│   ├── contact.phtml        # Contact page content
+│   ├── home.phtml           # Home page content
+│   └── products.phtml       # Products page content
+├── includes/
+│   ├── config.php           # Site configuration
+│   └── functions.php        # Core PHP functions
 └── template/
-    ├── template.php        # Main HTML template
-    ├── style.css          # Modern styling
-    └── images/            # Image assets
+   ├── style.css            # Modern styling
+   └── template.php         # Main HTML template
+```
+
+luxora/
+
+## Project Structure
+
+```
+luxora/
+├── index.php                # Main entry point
+├── readme.md                # Project documentation
+├── content/
+│   ├── 404.phtml            # 404 error page
+│   ├── about-us.phtml       # About page content
+│   ├── contact.phtml        # Contact page content
+│   ├── home.phtml           # Home page content
+│   └── products.phtml       # Products page content
+├── includes/
+│   ├── config.php           # Site configuration
+│   └── functions.php        # Core PHP functions
+└── template/
+   ├── style.css            # Modern styling
+   └── template.php         # Main HTML template
+>>>>>>> 1bd8972 (Update readme: project structure, contact, and support info)
 ```
 
 ## Key Technologies
@@ -118,10 +133,10 @@ This project demonstrates:
 Edit the CSS variables in `template/style.css`:
 ```css
 :root {
-    --primary-color: #1a3a52;      /* Navy blue */
-    --accent-color: #D4AF37;       /* Gold */
-    --text-light: #f5f5f5;         /* Light text */
-    --text-dark: #1a3a52;          /* Dark text */
+   --primary-color: #1a3a52;      /* Navy blue */
+   --accent-color: #D4AF37;       /* Gold */
+   --text-light: #f5f5f5;         /* Light text */
+   --text-dark: #1a3a52;          /* Dark text */
 }
 ```
 
@@ -186,15 +201,9 @@ Contributions are welcome! Feel free to:
 
 ## Support
 
-For questions, feedback, or issues:
-- 📧 support@luxora.com
-- 📱 +1-800-LUXORA-1
-- 💬 WhatsApp: +1 (800) 589-9671
+For questions, feedback, or issues, please use the email address provided on the project's GitHub profile for all contact and support inquiries:
+https://github.com/Subhajyoti-Maity/Luxora
 
 ## Credits
 
-Built with modern PHP best practices and professional web design standards. Originally created as an educational project for PHP beginners, evolved into a showcase of professional web development.
-
----
-
-**Made with ❤️ by Luxora Team**
+**Made with ❤️ by Subhajyoti Maity & luxora Team**
