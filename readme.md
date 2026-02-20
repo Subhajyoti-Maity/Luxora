@@ -91,24 +91,6 @@ luxora/
 
 
 
-## Project Structure
-
-```
-luxora/
-├── index.php                # Main entry point
-├── readme.md                # Project documentation
-├── content/
-│   ├── 404.phtml            # 404 error page
-│   ├── about-us.phtml       # About page content
-│   ├── contact.phtml        # Contact page content
-│   ├── home.phtml           # Home page content
-│   └── products.phtml       # Products page content
-├── includes/
-│   ├── config.php           # Site configuration
-│   └── functions.php        # Core PHP functions
-└── template/
-   ├── style.css            # Modern styling
-   └── template.php         # Main HTML template
 
 ```
 
