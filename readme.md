@@ -1,13 +1,14 @@
-# luxora - Premium PHP Website
+# luxora - PHP Website
 
-Welcome to **Luxora**, a modern, elegantly designed premium website built with PHP. This project combines clean, minimal PHP code with a sophisticated user interface featuring luxury branding, dark/light mode support, and professional features.
 
-Originally a simple PHP website for beginners, Luxora has been enhanced with modern design patterns, professional styling, and advanced features while maintaining easy-to-understand code structure.
+Welcome to **luxora**, a modern, clean PHP website. This project features a simple, easy-to-understand codebase with a user-friendly interface, dark/light mode support, and practical features for learning and customization.
+
+Luxora is designed for beginners and those who want a solid foundation for PHP web development, with clear structure and modern best practices.
 
 ## Features
 
 ### 🎨 Design & UX
-- **Premium Navy Blue & Gold Theme** - Elegant color scheme with luxury feel
+- **Navy Blue & Gold Theme** - Clean, attractive color scheme
 - **Dark/Light Mode** - Toggle between dark navy and light cream themes with persistent user preference
 - **Modern Typography** - Beautiful Playfair Display serif headers and Lato sans-serif body text
 - **Font Awesome Icons** - Professional icons throughout the interface
@@ -16,10 +17,11 @@ Originally a simple PHP website for beginners, Luxora has been enhanced with mod
 - **Featured Sections** - Highlighted content boxes on key pages
 - **Benefit Cards Grid** - Showcase key features with icons and hover animations
 - **Social Media Integration** - Footer links to Facebook, Twitter, LinkedIn, Instagram
-- **Professional Contact Form** - Name, Email, Subject, Message fields
-- **Styled Form Elements** - Beautiful form with validation support
+- **Contact Form** - Name, Email, Subject, Message fields
+- **Styled Form Elements** - Clean form with validation support
 
-Built with modern PHP best practices and professional web design standards. Originally created as an educational project for PHP beginners, evolved into a showcase of professional web development.
+
+Built with modern PHP best practices and web design standards. Originally created as an educational project for PHP beginners, now a solid example of practical PHP web development.
 
 ### 📱 Pages Included
 - **Home** - Welcome page with Luxora brand information, vision, mission, and key benefits
@@ -68,8 +70,7 @@ Edit `includes/config.php` to customize:
 
 ```
 luxora/
-├── index.php                # Main entry point
-├── readme.md                # Project documentation
+├── .vscode/                 # VS Code settings (tasks, launch configs)
 ├── content/
 │   ├── 404.phtml            # 404 error page
 │   ├── about-us.phtml       # About page content
@@ -79,12 +80,16 @@ luxora/
 ├── includes/
 │   ├── config.php           # Site configuration
 │   └── functions.php        # Core PHP functions
-└── template/
-   ├── style.css            # Modern styling
-   └── template.php         # Main HTML template
+├── template/
+│   ├── style.css            # Main CSS styling
+│   └── template.php         # Main HTML template
+├── .gitignore               # Git ignore rules
+├── .htaccess                # Apache config (if used)
+├── index.php                # Main entry point
+├── readme.md                # Project documentation
 ```
 
-luxora/
+
 
 ## Project Structure
 
@@ -104,7 +109,7 @@ luxora/
 └── template/
    ├── style.css            # Modern styling
    └── template.php         # Main HTML template
->>>>>>> 1bd8972 (Update readme: project structure, contact, and support info)
+
 ```
 
 ## Key Technologies
@@ -201,9 +206,10 @@ Contributions are welcome! Feel free to:
 
 ## Support
 
-For questions, feedback, or issues, please use the email address provided on the project's GitHub profile for all contact and support inquiries:
-https://github.com/Subhajyoti-Maity/Luxora
+For questions, feedback, or issues, please use the email address provided on the project's GitHub profile for all contact and support inquiries
 
-## Credits
+---
 
-**Made with ❤️ by Subhajyoti Maity & luxora Team**
+**Author:**
+
+Subhajyoti Maity
